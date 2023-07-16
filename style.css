@@ -1,0 +1,252 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* Navigation Area Here */
+
+.NavDiv{
+    background-color: white;
+    padding: 20px;
+}
+
+.IteamList li{
+    list-style-type:none;
+}
+.IteamList li a{
+    text-decoration: none;
+    color:rgb(95, 94, 92)
+}
+.IteamList li a:hover{
+    background-color: blue; 
+    color: white;
+    transition: 1s ease-in-out 
+
+}
+.IteamList{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+/* Banner Area Here */
+
+.PareDiv1 h1{
+    font-size: 40px;
+}
+.PareDiv1 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.PareDiv1 p a{
+    text-decoration: none;
+}
+.PareDiv1 input{
+    font-size:15px;
+    border:none;
+    padding: 12px 27px;
+    background-color: rgb(253, 115, 138);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.PareDiv2 img{
+    height:650px;
+    width: 750px;
+}
+.GraPreDiv1{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Service Area Here */
+
+.ServiceDiv{
+    background-color: rgb(253, 115, 138);
+    padding: 25px;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.ServiceDiv div img{
+    height:50px;
+    width: 45px;
+    background-color: rgb(63, 63, 253);
+    border-radius: 50%;
+    padding: 5px;
+}
+.child{
+    background-color: white;
+    padding: 20px;
+    height: 50% 50%;
+    border-radius: 40px;
+    align-items: centre;
+}
+.H2Style{
+    background-color: rgb(253, 115, 138);
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.ButSec{
+    background-color: rgb(253, 115, 138);
+    padding-bottom: 50px;
+    text-align: center;
+}
+.SerBut{
+    border:none;
+    padding: 12px 20px;
+    background-color: rgb(63, 63, 253);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Body Section 1 */
+
+.PraDiv1 img{
+    height:650px;
+    width: 700px;
+}
+.GraPraDiv1{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.ParDiv2 h1{
+    font-size: 40px;
+}
+.ParDiv2 p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.ParDiv2 p a{
+    text-decoration: none;
+}
+.ParDiv2 ul{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.ListS{
+    list-style-type:square;
+}
+.ParDiv2 input{
+    font-size:15px;
+    border:none;
+    padding: 12px 27px;
+    background-color: rgb(253, 115, 138);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* About Area Here */
+
+.main{
+    background-color: rgb(253, 115, 138);
+    color:white;
+    display:flex;
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    gap: 25%;
+}
+.D1 h1{
+    font-size: 100px
+}
+.D2 h1{
+    font-size: 100px
+}
+.D3 h1{
+    font-size: 100px
+}
+.D1 h6{
+    font-size: 25px
+}
+.D2 h6{
+    font-size: 25px
+}
+.D3 h6{
+    font-size: 25px
+}
+
+/* Body Section 2 */
+
+.PreDiv3 img{
+    height:650px;
+    width: 750px;
+}
+.GraPraDiv3{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.ParDivv h1{
+    font-size: 40px;
+}
+.ParDivv p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.ParDivv p a{
+    text-decoration: none;
+}
+.ParDivv ul{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ParDivv input{
+    font-size:15px;
+    border:none;
+    padding: 12px 27px;
+    background-color: rgb(253, 115, 138);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Contact Area Here */
+
+.contact{
+    background-color: rgb(63, 63, 253);
+    text-align: center;
+    padding: 50px;
+}
+.contact h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.mail{
+    width: 400px;
+    height: 30px;
+}
+.sub{
+    font-size:15px;
+    border:none;
+    padding: 12px 20px;
+    background-color: rgb(253, 115, 138);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Footer Area Here */
+
+.last p{
+    background-color: rgb(48, 47, 47);
+    text-align: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(184, 182, 182);
+}
